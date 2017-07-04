@@ -4,8 +4,8 @@ import Tkinter
 """
 Created on Mon Oct 24 21:51:54 2016
 
-Bhavesh  Ramkorun and Sher Sanginov L02
-Cave class for the game
+Sher Sanginov L02
+Depth-First Search Caveman Game
 
 """
 

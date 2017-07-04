@@ -16,12 +16,25 @@ design and algorithm concepts like Depth-First Search and Breadth-First search. 
 a game that uses Depth-First search, stacks, queues in its implementation in order to show the use of
 data structures and algorithmic concepts in the real world.
 
-## Files description
+## File description
 
 * [main.py](main.py) - this is the file that runs the program
 * [gameClass.py](gameClass.py) - all the implementation of the Caveman game is located in this file as a Cave class.
 * You can ignore other files with .gif or .txt extensions since they are used by [gameClass.py](gameClass.py) and [main.py](main.py) files.
+* Files with .txt extensions (sample_input_map.txt) are used as a user input since they are the actual
+maps that are used in the game. Here's a simple input map:
 
+```
+4 12
+WWWWWWWWWWWW
+WWW...WWW.WW
+WW.....WW.WW
+WW.W.WWW...W
+```
+
+In the example above, 4 is a number of rows while 12 is a number of columns in the map. "W" means walls
+and "."(dot) means open path. This type of input allowed me to use 2-D arrays in my program to depict the map of the cave.
+* Files with .gif extension (assets_wall.gif) are gif images that are used by Tkinter library for graphical purposes.
 
 
 

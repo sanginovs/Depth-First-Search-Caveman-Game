@@ -1,5 +1,5 @@
-
-#Sher Sanginov  & Bhavesh Ramkorun
+#Depth-First Search Caveman Game
+#Author: Sher Sanginov
 
 
 
