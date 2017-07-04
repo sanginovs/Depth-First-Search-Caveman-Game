@@ -32,6 +32,7 @@ sudo apt-get install python-tk
 
 
 ##Running the program
+
 In order to run the program, you just need to run main.py file.
 From the terminal. Make sure you are inside this directory.
 python main.py
