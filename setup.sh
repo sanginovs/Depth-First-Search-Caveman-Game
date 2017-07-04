@@ -18,7 +18,7 @@ fi
 
 . venv/bin/activate
 
-apt-get install python-tk
+sudo apt-get install python-tk
 
 
 #pip install numpy
