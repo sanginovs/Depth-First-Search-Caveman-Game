@@ -12,30 +12,29 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-a) In order to run this application, it's is necessary to have **Python2.7** or **Python3.5** installed
-on your machine.
-<br>b)This game uses **Tkinter** library for graphics. It's necessary you have Tkinter library installed on your machine.<br>
-You can install tkinter using this command: **sudo apt-get install python-tk**
+a)It is necessary to have Python2.7 or Python3.5 installed on your local machine.
+b)Python Tkinter library is required
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
+a) Installing Python 2.7
 ```
-Give the example
+Download Python2.7 from Python website: https://www.python.org/downloads/
 ```
 
-And repeat
+b) Install Tkinter Library
 
 ```
-until finished
+You can install Tkinter by simply typing this command in the terminal(linux):
+sudo apt-get install python-tk
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
+##Running the program
+In order to run the program, you just need to run main.py file.
+From the terminal. Make sure you are inside this directory.
+python main.py
 ## Running the tests
 
 Explain how to run the automated tests for this system
