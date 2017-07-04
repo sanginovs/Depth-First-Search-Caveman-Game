@@ -6,20 +6,21 @@ Depth-First Search Caveman
 
 Depth-First Search Caveman is a game in which a caveman automatically goes around the cave to look for
 a treasure. There are several treasures that are located in different coordinates on the map. That's why,
-caveman walks around looking for treasure. If the caveman gets stuck, he backtracks until he finds a direction
-which is open for him to go, otherwise it keeps backtracking.
+caveman walks around looking for a treasure. If the caveman gets stuck, he starts to backtrack until he finds a direction
+which is open for him to go, otherwise he keeps backtracking.
 
 ## Motivation
 
 I was motivated to work on this project after learning about different data structures like stacks, queues and
 design and algorithm concepts like Depth-First Search and Breadth-First search. Thus, I decided to make
-a game that uses Depth-First search, stacks, queues in its implementation in order to show the use of
+a game that uses Depth-First search, stacks, queues, 2D arrays in its implementation in order to show the use of
 data structures and algorithmic concepts in the real world.
 
 ## File description
 
 * [main.py](main.py) - this is the file that runs the program
 * [gameClass.py](gameClass.py) - all the implementation of the Caveman game is located in this file as a Cave class.
+* [Stack.py](Stack.py) - this file contains an impelemention of stack in Python which is used in the game. Stack is a common LIFO(for last in, first out) data structure.
 * You can ignore other files with .gif or .txt extensions since they are used by [gameClass.py](gameClass.py) and [main.py](main.py) files.
 * Files with .txt extensions (sample_input_map.txt) are used as a user input since they are the actual
 maps that are used in the game. Here's a simple input map:
@@ -33,7 +34,8 @@ WW.W.WWW...W
 ```
 
 In the example above, 4 is a number of rows while 12 is a number of columns in the map. "W" means walls
-and "."(dot) means open path. This type of input allowed me to use 2-D arrays in my program to depict the map of the cave.
+and "."(dot) means open path. This type of input allowed me to use 2-D arrays in the implementation
+of my game as the cave map.
 * Files with .gif extension (assets_wall.gif) are gif images that are used by Tkinter library for graphical purposes.
 
 
@@ -43,7 +45,7 @@ and "."(dot) means open path. This type of input allowed me to use 2-D arrays in
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
- See deployment for notes on how to deploy the project on a live system.
+
 
 ### Prerequisites
 
@@ -87,45 +89,24 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python](https://www.python.org/) - The programming language
+* [Tkinter](https://docs.python.org/2/library/tkinter.html) - Python Graphical User Interface Library
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Sher Sanginov**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+*StackOverflow
 
