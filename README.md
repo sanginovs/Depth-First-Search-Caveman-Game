@@ -2,6 +2,21 @@
 
 Depth-First Search Caveman
 
+## Description
+
+Depth-First Search Caveman is a game in which a caveman automatically goes around the cave to look for
+a treasure. There are several treasures that are located in different coordinates on the map. That's why,
+caveman walks around looking for treasure. If the caveman gets stuck, he backtracks until he finds a direction
+which is open for him to go, otherwise it keeps backtracking.
+
+## Motivation
+
+I was motivated to work on this project after learning about different data structures like stacks, queues and
+design and algorithm concepts like Depth-First Search and Breadth-First search. Thus, I decided to make
+a game that uses Depth-First search, stacks, queues in its implementation in order to show the use of
+data structures and algorithmic concepts in the real world.
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
