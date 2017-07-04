@@ -16,7 +16,7 @@ design and algorithm concepts like Depth-First Search and Breadth-First search. 
 a game that uses Depth-First search, stacks, queues, 2D arrays in its implementation in order to show the use of
 data structures and algorithmic concepts in the real world.
 
-## File description
+## File descriptions
 
 * [main.py](main.py) - this is the file that runs the program
 * [gameClass.py](gameClass.py) - all the implementation of the Caveman game is located in this file as a Cave class.
@@ -108,5 +108,5 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## Acknowledgments
 
-*StackOverflow
+* **StackOverflow**
 
