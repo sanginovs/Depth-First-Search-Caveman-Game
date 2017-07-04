@@ -4,7 +4,7 @@ import Tkinter
 """
 Created on Mon Oct 24 21:51:54 2016
 
-Sher Sanginov L02
+Sher Sanginov 
 Depth-First Search Caveman Game
 
 """

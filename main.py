@@ -1,5 +1,5 @@
 #Depth-First Search Caveman Game
-#Author: Sher Sanginov
+#Author: _Sher Sanginov_
 
 
 
