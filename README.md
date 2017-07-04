@@ -36,6 +36,7 @@ sudo apt-get install python-tk
 In order to run the program, you just need to run main.py file. You can run it from your IDE or terminal.
 Make sure you are inside this directory. In the terminal, type:
 python main.py
+
 ## Running the tests
 
 Explain how to run the automated tests for this system
