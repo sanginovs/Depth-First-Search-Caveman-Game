@@ -21,7 +21,7 @@ data structures and algorithmic concepts in the real world.
 * [main.py](main.py) - this is the file that runs the program
 * [gameClass.py](gameClass.py) - all the implementation of the Caveman game is located in this file as a Cave class.
 * [Stack.py](Stack.py) - this file contains an impelemention of stack in Python which is used in the game. Stack is a common LIFO(for last in, first out) data structure.
-* [setup.py](setup.py) - installs all the dependencies to get started with the development environment
+* [setup.sh](setup.sh) - installs all the dependencies to get started with the development environment
 * You can ignore other files with .gif or .txt extensions since they are used by [gameClass.py](gameClass.py) and [main.py](main.py) files.
 * Files with .txt extensions (sample_input_map.txt) are used as a user input since they are the actual
 maps that are used in the game. Here's a simple input map:
@@ -59,7 +59,7 @@ b)Python Tkinter library is required
 
 ### Installing
 
-You can simply run the [setup.py](setup.py) file which installs all the dependecies for you.
+You can simply run the [setup.sh](setup.sh) file which installs all the dependecies for you.
 
 Or
 
